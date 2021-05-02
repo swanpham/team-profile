@@ -14,9 +14,9 @@
   * Clone the repository to your local machine
   * Navigate to the designated folder in bash
   * Execute npm install to install dependencies
-    * [Inquirer] npm package will be installed along with its own dependencies
+    * [Inquirer](https://www.npmjs.com/package/inquirer) npm package will be installed along with its own dependencies
   * To install dev dependencies, execite npm install --dev
-    * [Jest] npm package will be installed along with its own dependencies
+    * [Jest](https://jestjs.io/) npm package will be installed along with its own dependencies
     
 ## Usage
 
@@ -57,7 +57,7 @@
 ## Tests
 
 * Ensure npm install --dev has been run after cloning the repo
-* Tests are run using the Jest npm package
+* Tests are run using the [Jest](https://jestjs.io/) npm package
 * run npm test to test all suites, or to test individually:
   * npm test Employee
   * npm test Manager
