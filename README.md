@@ -49,7 +49,7 @@
 * WHEN I decide to finish building my team, 
   THEN I exit the application, and the HTML is generated
 
-* [Walkthrough video](https://drive.google.com/file/d/1q66UZrD1MjCbw15WcaWpLzbmsHb_sRyH/view?usp=sharing)
+## [Walkthrough video](https://drive.google.com/file/d/1q66UZrD1MjCbw15WcaWpLzbmsHb_sRyH/view?usp=sharing)
 
 ## Contribution
 
