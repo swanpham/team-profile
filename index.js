@@ -2,19 +2,11 @@ const fs = require('fs');
 
 const generatePage = require('./src/page-template.js');
 
-const profileDataArgs = process.argv.slice(2);
+const pageHTML = generatePage('Swan.Team');
 
-const [name] = profileDataArgs;
-
-
-
-fs.writeFile('index.html', generatePage(name), err => {
-    if (err) throw err;
-  
-    console.log('Team Profile! Check out index.html to see the output!');
-});    
 
 const inquirer = require('inquirer');
+
 const Manager = require('./lib/Manager');
 
 const Engineer = require('./lib/Engineer');
