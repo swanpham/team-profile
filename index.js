@@ -1,9 +1,6 @@
-const fs = require('fs');
-
 const generatePage = require('./src/page-template.js');
 
-const pageHTML = generatePage('Swan.Team');
-
+const {writeFile, copyFile} = require ('./src/generatefile.js');
 
 const inquirer = require('inquirer');
 
@@ -90,12 +87,36 @@ function questions(roles) {
 
         
 ]).then (data => {
-    employees.push(data)
+    let employee 
+    switch(data.role) {
+        case 'Manager':
+            employee = new Manager (data.name, data.id, data.email, data.office)
+            break;
+        case 'Engineer':
+            employee = new Engineer(data.name, data.id, data.email, data.github)
+            break;
+        case 'Intern':
+            employee = new Intern(data.name, data.id, data.email, data.school)
+            break;
+    }
+
+    employees.push(employee)
     if (data.confirmNews === true) {
         console.log ('---------------');
         return questions (['Engineer','Intern']);
     }else {
-        console.log (employees);
+        const page = generatePage (employees);
+        writeFile (page)
+        .then (file => {
+            console.log(file);
+            return copyFile();
+        })
+        .then(copy => {
+            console.log(copy);
+        })
+        .catch(error => {
+            console.log(error);
+        })        
     }
 })
 }
