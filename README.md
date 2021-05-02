@@ -5,7 +5,7 @@
   * I want to to generate a webpage that displays my team's basic info
   * So that I have quick access to my Employees's emails and GitHub profiles
   
-## HTML page generate Team's information 
+## Sample HTML file generated 
 
 ![Alt text](/src/images/website.JPG?raw=true "Optional Title")
 
