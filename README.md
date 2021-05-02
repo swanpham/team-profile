@@ -9,7 +9,7 @@
 
 ![Alt text](/src/images/website.JPG?raw=true "Optional Title")
 
-## Walkthrough video demonstrates its functionality and all of the tests passing
+## Walkthrough video 
 
 https://drive.google.com/file/d/1QgilZu3Q8FKSDIzLJDAo9ib7F4nzoMBr/view?usp=sharing
 
