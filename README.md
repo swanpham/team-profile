@@ -11,9 +11,10 @@
 
 ## Walkthrough video demonstrates its functionality and all of the tests passing
 
+https://drive.google.com/file/d/1QgilZu3Q8FKSDIzLJDAo9ib7F4nzoMBr/view?usp=sharing
+
 https://drive.google.com/file/d/1q66UZrD1MjCbw15WcaWpLzbmsHb_sRyH/view?usp=sharing
 
-https://drive.google.com/file/d/1QgilZu3Q8FKSDIzLJDAo9ib7F4nzoMBr/view?usp=sharing
 
 ## Built With
 
