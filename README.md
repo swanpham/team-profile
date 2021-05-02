@@ -14,9 +14,9 @@
   * Clone the repository to your local machine
   * Navigate to the designated folder in bash
   * Execute npm install to install dependencies
-    * Inquirer npm package will be installed along with its own dependencies
+    * [Inquirer] npm package will be installed along with its own dependencies
   * To install dev dependencies, execite npm install --dev
-    * Jest npm package will be installed along with its own dependencies
+    * [Jest] npm package will be installed along with its own dependencies
     
 ## Usage
 
@@ -51,9 +51,7 @@
 
 ## Walkthrough video 
 
-[![Alt text](/src/images/video1.JPG?raw=true "Optional Title")](https://drive.google.com/file/d/1QgilZu3Q8FKSDIzLJDAo9ib7F4nzoMBr/view?usp=sharing)
-
-https://drive.google.com/file/d/1q66UZrD1MjCbw15WcaWpLzbmsHb_sRyH/view?usp=sharing
+[![Alt text](/src/images/video1.JPG?raw=true "Optional Title")](https://drive.google.com/file/d/1q66UZrD1MjCbw15WcaWpLzbmsHb_sRyH/view?usp=sharing)
 
 ## Contribution
 
