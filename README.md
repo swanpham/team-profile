@@ -58,7 +58,16 @@ https://drive.google.com/file/d/1q66UZrD1MjCbw15WcaWpLzbmsHb_sRyH/view?usp=shari
 ## Contribution
 
  * This project is not open for contribution
+## Tests
 
+* Ensure npm install --dev has been run after cloning the repo
+* Tests are run using the Jest npm package
+* run npm test to test all suites, or to test individually:
+  * npm test Employee
+  * npm test Manager
+  * npm test Engineer
+  * npm test Inter
+  
 ## Built With
 
 - CSS
